@@ -1,0 +1,21 @@
+.site-Details{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(15, 220, 213);
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+}
+/* .site-Details h3{
+    margin-top: 20px;
+} */
+.main-container{
+    display: flex;
+}
+.employe-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
+}
